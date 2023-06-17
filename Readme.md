@@ -1,2 +1,2 @@
 # Johannes Janssens cryptography repository
-This repository contains cryptography concept implementations and experiments. Implementations should not be expected to be secure according to current standards (for example against timing attacks etc.) except if stated otherwise. Output of the finished crypto functions can be expected as correct if marked as finished.
+This repository contains cryptography concept implementations and experiments. Implementations should not be expected to be secure according to current standards (for example against timing attacks etc.) except if stated otherwise.
