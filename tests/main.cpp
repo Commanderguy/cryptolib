@@ -27,8 +27,13 @@ void printHashHex(IHashFunction<digestSize>* hashFunc, const char* message)
 int main()
 {
 	crypto::md5 md5Prov;
-	crypto::SHA224 sha224Prov;
+	crypto::SHA256 sha2Prov;
+	crypto::SHA3_256 sha3Prov;
 
-	std::cout << "md5: ";
-
+	std::cout << "md5:  ";
+	printHashHex(&md5Prov, "");
+	std::cout << "\nsha2: ";
+	printHashHex(&sha2Prov, "");
+	std::cout << "\nsha3: ";
+	printHashHex(&sha3Prov, "");
 }
